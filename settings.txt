@@ -1,0 +1,22 @@
+# M5Paper Clock - Settings Configuration File
+# Place this file on your SD card root as: /settings.txt
+# Format: KEY=VALUE (one per line)
+# Lines starting with # are comments and will be ignored
+
+# Timezone offset from UTC (in hours)
+# Examples: -7 = Mountain Time (MST/MDT), -5 = Eastern Time (EST/EDT)
+#           0 = UK (GMT/BST), 9 = Japan/Korea (JST/KST)
+TIMEZONE=-7
+
+# WiFi Network Credentials
+# Replace with your actual WiFi network name and password
+WIFI_SSID=YOUR_WIFI_SSID
+WIFI_PASSWORD=YOUR_WIFI_PASSWORD
+
+# NTP Time Server
+# Recommended servers:
+#   time.cloudflare.com (Cloudflare - very reliable, global)
+#   pool.ntp.org (Global pool of time servers)
+#   time.google.com (Google - very reliable)
+#   time.nist.gov (NIST - US government)
+NTP_SERVER=time.cloudflare.com
